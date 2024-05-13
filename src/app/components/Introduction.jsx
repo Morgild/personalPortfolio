@@ -3,13 +3,13 @@ import { CustomButton } from "./CustomButton";
 
 export const Introduction = () => {
   return (
-    <section className="w-full flex md:flex-row flex-col px-5">
+    <section className="w-full flex md:flex-row flex-col-reverse px-5 py-[40px] max-w-[1280px] m-auto">
       <div className="flex flex-col md:w-1/2 w-full bg-orange-400 justify-center py-10">
         <h2 className="text-base font-semibold text-main">Hey There 👋 I am</h2>
         <h2 className="text-4xl font-bold text-secondary mt-1 mb-3">
-          Daniel Jack
+          Munkh-Orgil
         </h2>
-        <p className="text-xl font-medium mb-5">Professional Developer</p>
+        <p className="text-xl font-medium mb-5">Web Developer</p>
         <p className="text-gray font-medium text-base mb-11">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
           delectus at?
@@ -19,11 +19,19 @@ export const Introduction = () => {
           <CustomButton text="Learn More" bgColor="secondary" />
         </div>
       </div>
-      <div className="flex justify-center md:w-1/2 w-full relative overflow-hidden">
-        <div className="justify-self-center">
-          <Image src={"/hero-image.png"} height={490} width={491} />
+      <div className="flex relative justify-center items-center md:w-1/2 w-full overflow-hidden">
+        <div className="flex items-center rotate-12 justify-center overflow-hidden transition-all hover:scale-[105%]  bg-gray rounded-lg w-[255px] h-[255px]">
+          <Image
+            src={"/profile.jpeg"}
+            style={{
+              filter: "grayscale(100%)",
+              borderRadius: "8px",
+              rotate: "-12deg",
+            }}
+            height={250}
+            width={250}
+          />
         </div>
-        <figure className="w-[800px] h-[800px] rounded-full bg-main absolute z-[-10] top-[5%] left-[0]"></figure>
       </div>
     </section>
   );
