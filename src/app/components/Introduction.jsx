@@ -14,9 +14,8 @@ export const Introduction = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
           delectus at?
         </p>
-        <div className="flex gap-4">
+        <div hr className="flex gap-4">
           <CustomButton text="Contact Me" bgColor="main" />
-          <CustomButton text="Learn More" bgColor="secondary" />
         </div>
       </div>
       <div className="flex relative justify-center items-center md:w-1/2 w-full overflow-hidden">

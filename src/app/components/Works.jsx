@@ -29,7 +29,7 @@ const works = [
 ];
 export const Works = () => {
   return (
-    <section className="py-[120px] bg-[#f8f9ff]">
+    <section id="Works" className="py-[120px] bg-[#f8f9ff]">
       <div className="max-w-[1280px] m-auto">
         <div className="flex flex-col gap-8">
           <h3 className="text-main text-xl font-bold mb-3  m-auto">

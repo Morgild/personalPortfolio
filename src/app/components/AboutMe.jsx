@@ -1,7 +1,7 @@
 import { SocialLinks } from "./SocialLinks";
 export const AboutMe = () => {
   return (
-    <section className="w-full flex bg-[#f8f9ff] py-[80px]">
+    <section id="About" className="w-full flex bg-[#f8f9ff] py-[80px]">
       <div className="flex w-full flex-col md:flex-row  max-w-[1280px] m-auto gap-4">
         <div className="md:w-1/2 w-full px-4">
           <h3 className="text-main text-xl font-bold mb-3">ABOUT ME</h3>

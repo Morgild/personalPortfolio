@@ -1,7 +1,7 @@
 import { Planguage } from "./Planguage";
 export const Skills = () => {
   return (
-    <div id="Testimonials" className=" px-4 py-[120px]">
+    <div id="Skills" className=" px-4 py-[120px]">
       <p className="w-full text-center text-main text-xl font-bold dark:text-[#D1D5DB] mt-4 mb-12">
         SKILLS
       </p>

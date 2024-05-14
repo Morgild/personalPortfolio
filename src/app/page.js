@@ -7,7 +7,7 @@ import { Works } from "./components/Works";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="relative">
       <Header />
       <Introduction />
       <AboutMe />
