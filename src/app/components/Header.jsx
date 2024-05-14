@@ -33,13 +33,9 @@ export const Header = () => {
         ))}
       </ul>
       <div className="flex items-center">
-        <div
-          onClick={() => {
-            window.open("./cv.pdf");
-          }}
-        >
+        <a download href="/cv.pdf">
           <CustomButton text="Download CV" bgColor="main" />
-        </div>
+        </a>
         <div onClick={() => setOpenDrawer((prev) => !prev)}>
           <BurgerMenu />
         </div>
