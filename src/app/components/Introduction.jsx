@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { CustomButton } from "./CustomButton";
 
@@ -11,10 +12,17 @@ export const Introduction = () => {
         </h2>
         <p className="text-xl font-medium mb-5">Web Developer</p>
         <p className="text-gray font-medium text-base mb-11">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          delectus at?
+          "...web developers are the architects of the digital age, shaping
+          tomorrow's online landscape with every line of code."
         </p>
-        <div hr className="flex gap-4">
+        <div
+          onClick={() => {
+            document.getElementById(`Contact`).scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+          className="flex gap-4"
+        >
           <CustomButton text="Contact Me" bgColor="main" />
         </div>
       </div>

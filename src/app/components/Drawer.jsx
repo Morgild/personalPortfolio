@@ -1,4 +1,4 @@
-import { FaCode, FaCodiepie } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 import { CustomButton } from "./CustomButton";
 
 const menuList = ["Home", "About", "Skills", "Works"];
@@ -37,14 +37,14 @@ export const Drawer = (props) => {
             </li>
           ))}
         </ul>
-        <div className="p-4 gap-4 flex flex-col">
+        <a download href="/cv.pdf" className="p-4 gap-4 flex flex-col">
           <li
-            className="flex justify-center text-center m-auto cursor-pointer display-block w-full text-white px-4 py-1.5 rounded-xl flex items-center text-base font-medium text-[#F9FAFB
+            className="flex justify-center text-center m-auto cursor-pointer display-block w-full text-white px-4 py-1.5 rounded-xl  items-center text-base font-medium text-[#F9FAFB
        ]"
           >
             <CustomButton text="Download CV" />
           </li>
-        </div>
+        </a>
       </div>
     </div>
   );

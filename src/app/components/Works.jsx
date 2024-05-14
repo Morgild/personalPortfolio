@@ -4,25 +4,25 @@ import { Work } from "./Work";
 const works = [
   {
     title: "E-commerce Web Application",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.",
+    text: "Typescript,ReactJS, NextJS,Vercel, ExpressJS, NodeJS, MongoDB, MUI, Nodemailer, Cloudinary",
     source: "/ecommerce.png",
     path: "https://team2-omae.vercel.app/",
   },
   {
     title: "Food Delivery Web Application",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.",
+    text: "Typescript,ReactJS, NextJS,Vercel, ExpressJS, NodeJS, MongoDB, MUI, Nodemailer, JWT, Cloudinary ",
     source: "/fooddeliver.png",
     path: "https://food-delivery-teal-rho.vercel.app/",
   },
   {
     title: "Expense tracker Web Application",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.",
+    text: "Javascript,ReactJS, NextJS,Vercel, ExpressJS, NodeJS, MongoDB, Tailwind .",
     source: "/expenseTracker.png",
     path: "https://expense-tracker-9pdt.vercel.app/",
   },
   {
-    title: "Expense tracker Web Application",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.",
+    title: "API MetaBlog",
+    text: "Javascript, ReactJS NextJS,Vercel, ExpressJS, NodeJS, Tailwind ",
     source: "/metablog.png",
     path: "https://metablog-five.vercel.app/",
   },
