@@ -6,7 +6,7 @@ import { Drawer } from "./Drawer";
 import { FaCodepen } from "react-icons/fa";
 import { useState } from "react";
 
-const menuItems = ["Home", "About", "Skills", "Works", "Pages"];
+const menuItems = ["Home", "About", "Skills", "Works"];
 export const Header = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
   return (

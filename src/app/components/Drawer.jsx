@@ -1,7 +1,7 @@
 import { FaCode, FaCodiepie } from "react-icons/fa";
 import { CustomButton } from "./CustomButton";
 
-const menuList = ["Home", "About", "Skills", "Works", "Pages"];
+const menuList = ["Home", "About", "Skills", "Works"];
 export const Drawer = (props) => {
   return (
     <div className={`w-screen h-full`}>

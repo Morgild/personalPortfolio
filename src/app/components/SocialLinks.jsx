@@ -6,9 +6,6 @@ export const SocialLinks = () => {
   const router = useRouter();
   return (
     <div className="flex mt-8 gap-4 text-2xl text-orange-400">
-      <i className="color-red cursor-pointer">
-        <FaFacebook color="inherit" />
-      </i>
       <i className="cursor-pointer">
         <FaInstagram />
       </i>
