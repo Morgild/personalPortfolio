@@ -12,9 +12,17 @@ export const Header = () => {
   return (
     <div
       id="Home"
-      className="flex justify-between items-center  py-3 px-5 gap-6 max-w-[1280px] m-auto"
+      className="flex justify-between items-center  py-3 px-5 gap-6 max-w-[1280px] m-auto 
+      "
     >
-      <div className="text-[30px] text-main cursor-pointer hover:rotate-180 transition duration-500">
+      <div
+        onClick={() => {
+          document.getElementById(`Introduction`).scrollIntoView({
+            behavior: "smooth",
+          });
+        }}
+        className="text-[30px] text-main cursor-pointer hover:rotate-180 transition duration-500"
+      >
         <FaCodepen />
       </div>
       <ul className="w-full hidden md:flex flex-row justify-end gap-8">

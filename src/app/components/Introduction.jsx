@@ -4,7 +4,10 @@ import { CustomButton } from "./CustomButton";
 
 export const Introduction = () => {
   return (
-    <section className="w-full flex md:flex-row flex-col-reverse px-5 py-[40px] max-w-[1280px] m-auto">
+    <section
+      id="Introduction"
+      className="w-full flex md:flex-row flex-col-reverse px-5 py-[40px] max-w-[1280px] m-auto pt-[90px]"
+    >
       <div className="flex flex-col md:w-1/2 w-full bg-orange-400 justify-center py-10">
         <h2 className="text-base font-semibold text-main">Hey There 👋 I am</h2>
         <h2 className="text-4xl font-bold text-secondary mt-1 mb-3">

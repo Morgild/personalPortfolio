@@ -1,12 +1,15 @@
 import { SocialLinks } from "./SocialLinks";
 export const AboutMe = () => {
   return (
-    <section id="About" className="w-full flex bg-[#f8f9ff] py-[80px]">
+    <section
+      id="About"
+      className="w-full flex bg-[#f8f9ff] py-[80px] mt-[100px]"
+    >
       <div className="flex w-full flex-col md:flex-row  max-w-[1280px] m-auto gap-4">
         <div className="md:w-1/2 w-full px-4">
           <h3 className="text-main text-xl font-bold mb-3">ABOUT ME</h3>
           <h4 className="text-secondary mb-5 text-5xl font-bold">
-            Better design, better experience
+            Better code, better experience
           </h4>
           <p className="text-gray text-base text-justify">
             I'm Orgil, a passionate developer with a focus on the MERN (MongoDB,

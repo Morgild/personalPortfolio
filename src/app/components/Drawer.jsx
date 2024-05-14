@@ -4,7 +4,7 @@ import { CustomButton } from "./CustomButton";
 const menuList = ["Home", "About", "Skills", "Works"];
 export const Drawer = (props) => {
   return (
-    <div className={`w-screen h-full`}>
+    <div className={`w-screen h-screen`}>
       <div
         className={`bg-white w-full h-full z-30 absolute right-0 top-0 transition-all ease-in-out`}
       >

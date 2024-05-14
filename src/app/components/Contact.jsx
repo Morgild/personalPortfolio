@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <section
       id="Contact"
-      className="flex flex-col py-20 justify-center items-center w-full gap-8 bg-error"
+      className="flex flex-col py-20 justify-center items-center w-full  gap-8 bg-error"
     >
       <h3 className="text-main text-xl font-bold mb-3  m-auto">
         Contact With Me
@@ -12,9 +12,9 @@ export const Contact = () => {
       <form
         action="https://formsubmit.co/morgild@gmail.com"
         method="POST"
-        className="w-full flex flex-col items-center justify-center gap-7"
+        className="w-full  flex flex-col items-center justify-center gap-7"
       >
-        <div className="flex flex-col w-1/3 gap-2">
+        <div className="flex flex-col md:w-1/3 w-1/2  gap-2">
           <p className="font-semibold text-md">Name</p>
           <input
             onChange={(e) => {
@@ -27,7 +27,7 @@ export const Contact = () => {
             required
           />
         </div>
-        <div className="flex flex-col w-1/3 gap-2">
+        <div className="flex flex-col md:w-1/3 w-1/2 gap-2">
           <p className="font-semibold text-md">Email</p>
           <input
             onChange={(e) => {
@@ -40,7 +40,7 @@ export const Contact = () => {
             required
           />
         </div>
-        <div className="flex flex-col w-1/3 gap-2">
+        <div className="flex flex-col md:w-1/3 w-1/2 gap-2">
           <p className="font-semibold text-md">Message</p>
           <textarea
             type="text"

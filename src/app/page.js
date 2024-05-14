@@ -9,7 +9,9 @@ import { Contact } from "./components/Contact";
 export default function Home() {
   return (
     <main className="relative">
-      <Header />
+      <div className="w-full fixed z-20 bg-[#ffffffd5]">
+        <Header />
+      </div>
       <Introduction />
       <AboutMe />
       <Skills />
