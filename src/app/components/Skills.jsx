@@ -8,9 +8,9 @@ export const Skills = () => {
       <div className=" max-w-[1280px] m-auto grid md:grid-cols-8 grid-cols-3 md:gap-12 gap-6 ">
         <Planguage text="HTML5" source="/icon-html.png" />
         <Planguage text="CSS3" source="/icon-css.png" />
-        <Planguage text="Javascript" source="/icon-javscript.svg" />
+        <Planguage text="Javascript" source="/icon-javascript.png" />
         <Planguage text="Typescript" source="/icon-typescript.svg" />
-        <Planguage text="React" source="/icon-react.svg" />
+        <Planguage text="ReactJS" source="/icon-react.svg" />
         <Planguage text="Next.js" source="/icon-nextjs.svg" />
         <Planguage text="Node.js" source="/icon-nodejs.svg" />
         <Planguage text="Express.js" source={"/icon-express.svg"} />
@@ -22,6 +22,10 @@ export const Skills = () => {
         <Planguage text="Cypress" source={"/icon-cypress.svg"} />
         <Planguage text="Jest" source="/icon-jest.jpeg" />
         <Planguage text="Git" source="/icon-git.svg" />
+        <Planguage text="Matlab" source="/icon-matlab.png" />
+        <Planguage text="MS Excel" source="/icon-excel.png" />
+        <Planguage text="PowerBI" source="/icon-powerbi.png" />
+        <Planguage text="GAMS" source="/icon-gams.jpeg" />
       </div>
     </div>
   );
