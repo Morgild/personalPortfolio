@@ -41,7 +41,7 @@ export const Header = () => {
         ))}
       </ul>
       <div className="flex items-center">
-        <a download href="/cv.pdf">
+        <a>
           <CustomButton text="Download CV" bgColor="main" />
         </a>
         <div onClick={() => setOpenDrawer((prev) => !prev)}>
